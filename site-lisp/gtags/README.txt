@@ -1,47 +1,42 @@
-¡gtags.l‚É‚Â‚¢‚Ä
-  ‚±‚Ìgtags.l ‚ÍAGNU GLOBAL—p‚Ìgtags.el‚ð
-  bulb‚ªxyzzy—p‚ÉˆÚA‚µ‚½‚à‚Ì‚Å‚·B
+â– gtags.lã«ã¤ã„ã¦
+  ã“ã®gtags.l ã¯ã€GNU GLOBALç”¨ã®gtags.elã‚’
+  xyzzyç”¨ã«ç§»æ¤ã—ãŸã‚‚ã®ã§ã™ã€‚
 
 
-¡—Y”L‚³‚ñ‚Ìemacs lisp ˆÚAƒLƒbƒg‚ðŽg‚í‚¹‚Ä’¸‚«‚Ü‚µ‚½B‚ ‚è‚ª‚Æ‚¤‚²‚´‚¢‚Ü‚·B
-  http://members.at.infoseek.co.jp/osuneko/xyzzy/xyzzy.html
+â– ãƒ©ã‚¤ã‚»ãƒ³ã‚¹
+  GPL(GNU General Public License)
 
+â– ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«
+â—NetInstallerã®å ´åˆ
+ æ¬¡ã®ãƒžãƒ‹ãƒ¥ã‚¢ãƒ«ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã‚’é£›ã°ã—ã¦ã€ä¸‹è¨˜åˆæœŸè¨­å®šã‚’è¨­å®šã—ã¦ãã ã•ã„ã€‚
 
-¡ƒ‰ƒCƒZƒ“ƒX
-  GPL(GNU General Public License)‚Å‚·(‚½‚Ô‚ñ)B
+â—ãƒžãƒ‹ãƒ¥ã‚¢ãƒ«ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã®å ´åˆ
+  â—‡1
+    gtagsãƒ•ã‚©ãƒ«ãƒ€ã‚’site-lispãƒ•ã‚©ãƒ«ãƒ€ã«ã‚³ãƒ”ãƒ¼ã—ã¦ä¸‹ã•ã„ã€‚
 
+  â—‡2
+    å½“ãƒ•ã‚¡ã‚¤ãƒ«ã®ä»–ã«GNU GLOBALã®ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ãŒå¿…è¦ã§ã™ã€‚
+    æœ¬å®¶ã‹ã‚‰ http://www.gnu.org/software/global/
+    win32ç‰ˆã‚’ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã—ã¦ã€
+    PATHãŒé€šã£ã¦ã„ã‚‹ãƒ•ã‚©ãƒ«ãƒ€ã«è§£å‡ã—ã¦ãã ã•ã„ã€‚
 
-¡ƒCƒ“ƒXƒg[ƒ‹
-œNetInstaller‚Ìê‡
- ŽŸ‚Ìƒ}ƒjƒ…ƒAƒ‹ƒCƒ“ƒXƒg[ƒ‹‚ð”ò‚Î‚µ‚ÄA‰º‹L‰ŠúÝ’è‚ðÝ’è‚µ‚Ä‚­‚¾‚³‚¢B
-
-œƒ}ƒjƒ…ƒAƒ‹ƒCƒ“ƒXƒg[ƒ‹‚Ìê‡
-  ž1
-    gtagsƒtƒHƒ‹ƒ_‚ðsite-lispƒtƒHƒ‹ƒ_‚ÉƒRƒs[‚µ‚Ä‰º‚³‚¢B
-
-  ž2
-    “–ƒtƒ@ƒCƒ‹‚Ì‘¼‚ÉGNU GLOBAL‚ÌƒCƒ“ƒXƒg[ƒ‹‚ª•K—v‚Å‚·B
-    –{‰Æ‚©‚ç http://www.gnu.org/software/global/
-    win32”Å‚ðƒ_ƒEƒ“ƒ[ƒh‚µ‚ÄA
-    PATH‚ª’Ê‚Á‚Ä‚¢‚éƒtƒHƒ‹ƒ_‚É‰ð“€‚µ‚Ä‚­‚¾‚³‚¢B
-
-    Emacs“dŽq‘’I‚³‚ñ‚ªŽQl‚É‚È‚è‚Ü‚·B
+    Emacsé›»å­æ›¸æ£šã•ã‚“ãŒå‚è€ƒã«ãªã‚Šã¾ã™ã€‚
     http://www.bookshelf.jp/soft/meadow_42.html#SEC621
 
-  ž3
-    ‰º‹L‚Ì‰ŠúÝ’è‚Ì‘O‚É‰º‹L‚ð•t‚¯‚Ä‚­‚¾‚³‚¢B
+  â—‡3
+    ä¸‹è¨˜ã®åˆæœŸè¨­å®šã®å‰ã«ä¸‹è¨˜ã‚’ä»˜ã‘ã¦ãã ã•ã„ã€‚
 (export 'ed::gtags-mode "ed")
 (autoload 'ed::gtags-mode "gtags/gtags" t)
 (require "gtags/gtags-menu")
 
 
 
-¡‰ŠúÝ’è
-  .xyzzy ‚© siteinit.l ‚É‰º‹L‚ð’Ç‰Á‚µ‚Ä‰º‚³‚¢B
-  ‰º‹LÝ’è(ƒIƒŠƒWƒiƒ‹)‚Ì‚Ü‚Ü‚Å‚·‚ÆAC-t ‚Æ‚© M-r‚È‚Ç‚ÌƒL[ƒoƒCƒ“ƒh‚ª’×‚ê‚Ä‚µ‚Ü‚¤‚Ì‚ÅA
-  ‚¨D‚Ý‚ÌƒL[ƒoƒCƒ“ƒh‚É•ÏX‚µ‚Ä‰º‚³‚¢B
+â– åˆæœŸè¨­å®š
+  .xyzzy ã‹ siteinit.l ã«ä¸‹è¨˜ã‚’è¿½åŠ ã—ã¦ä¸‹ã•ã„ã€‚
+  ä¸‹è¨˜è¨­å®š(ã‚ªãƒªã‚¸ãƒŠãƒ«)ã®ã¾ã¾ã§ã™ã¨ã€C-t ã¨ã‹ M-rãªã©ã®ã‚­ãƒ¼ãƒã‚¤ãƒ³ãƒ‰ãŒæ½°ã‚Œã¦ã—ã¾ã†ã®ã§ã€
+  ãŠå¥½ã¿ã®ã‚­ãƒ¼ãƒã‚¤ãƒ³ãƒ‰ã«å¤‰æ›´ã—ã¦ä¸‹ã•ã„ã€‚
 
-;;; Emacs Lisp ˆÚAƒLƒbƒg
+;;; Emacs Lisp ç§»æ¤ã‚­ãƒƒãƒˆ
 (require "elisp")
 
 ;;; gtags-mode
@@ -80,7 +75,7 @@
 (add-hook '*c-mode-hook*
           #'(lambda ()
               (gtags-mode 1)
-              ;(gtags-make-complete-list);–¢‘Î‰ž
+              ;(gtags-make-complete-list);æœªå¯¾å¿œ
               ))
 (add-hook '*c++-mode-hook*
           #'(lambda ()
@@ -91,82 +86,82 @@
 (in-package "user")
 
 
-¡Žg‚¢•û
-œ1 GTAGS‚Ì¶¬•û–@
-  žƒƒjƒ…[
-  ƒc[ƒ‹ƒƒjƒ…[‚É‚ ‚éuGTAGSƒtƒ@ƒCƒ‹‚Ìì¬v‚ð‘I‘ðB
-  ƒ^ƒO‚ðì¬‚µ‚½‚¢ƒ\[ƒXƒfƒBƒŒƒNƒgƒŠ‚ÉˆÚ“®‚µ‚Ä
-  OK‚ð‰Ÿ‚·‚Æ¶¬‚³‚ê‚Ü‚·B
+â– ä½¿ã„æ–¹
+â—1 GTAGSã®ç”Ÿæˆæ–¹æ³•
+  â—‡ãƒ¡ãƒ‹ãƒ¥ãƒ¼
+  ãƒ„ãƒ¼ãƒ«ãƒ¡ãƒ‹ãƒ¥ãƒ¼ã«ã‚ã‚‹ã€ŒGTAGSãƒ•ã‚¡ã‚¤ãƒ«ã®ä½œæˆã€ã‚’é¸æŠžã€‚
+  ã‚¿ã‚°ã‚’ä½œæˆã—ãŸã„ã‚½ãƒ¼ã‚¹ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã«ç§»å‹•ã—ã¦
+  OKã‚’æŠ¼ã™ã¨ç”Ÿæˆã•ã‚Œã¾ã™ã€‚
 
-  1.¶¬‚·‚éƒfƒBƒŒƒNƒgƒŠ‚ÉGTAGSƒtƒ@ƒCƒ‹‚ª‚È‚¢ê‡‚ÍV‹K‚É¶¬B
-  2.‚·‚Å‚ÉGTAGSƒtƒ@ƒCƒ‹‚ª‘¶Ý‚µ‚Ä‚¢‚éê‡‚ÍIncremental‚ÉƒAƒbƒvƒf[ƒg
-  ‚Â‚Ü‚èC³‚µ‚½ƒ\[ƒX‚¾‚¯TAGƒtƒ@ƒCƒ‹‚ðXV‚µ‚Ü‚·B
+  1.ç”Ÿæˆã™ã‚‹ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã«GTAGSãƒ•ã‚¡ã‚¤ãƒ«ãŒãªã„å ´åˆã¯æ–°è¦ã«ç”Ÿæˆã€‚
+  2.ã™ã§ã«GTAGSãƒ•ã‚¡ã‚¤ãƒ«ãŒå­˜åœ¨ã—ã¦ã„ã‚‹å ´åˆã¯Incrementalã«ã‚¢ãƒƒãƒ—ãƒ‡ãƒ¼ãƒˆ
+  ã¤ã¾ã‚Šä¿®æ­£ã—ãŸã‚½ãƒ¼ã‚¹ã ã‘TAGãƒ•ã‚¡ã‚¤ãƒ«ã‚’æ›´æ–°ã—ã¾ã™ã€‚
 
-  žƒRƒ}ƒ“ƒhƒ‰ƒCƒ“‚©‚ç¶¬‚·‚éê‡
-  > cd source    ;ƒ^ƒO‚ðì‚è‚½‚¢ƒ\[ƒXƒfƒBƒŒƒNƒgƒŠ‚ÉˆÚ“®
-  > gtags -v     ;GTAGS‚ð¶¬
+  â—‡ã‚³ãƒžãƒ³ãƒ‰ãƒ©ã‚¤ãƒ³ã‹ã‚‰ç”Ÿæˆã™ã‚‹å ´åˆ
+  > cd source    ;ã‚¿ã‚°ã‚’ä½œã‚ŠãŸã„ã‚½ãƒ¼ã‚¹ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã«ç§»å‹•
+  > gtags -v     ;GTAGSã‚’ç”Ÿæˆ
 
-  xyzzy‚©‚ç‚ÍAC-x & ‚â ƒtƒ@ƒCƒ‰[‚ÌF3 ‚©‚ç
+  xyzzyã‹ã‚‰ã¯ã€C-x & ã‚„ ãƒ•ã‚¡ã‚¤ãƒ©ãƒ¼ã®F3 ã‹ã‚‰
   > gtags
-  ‚Æƒ^ƒCƒv‚·‚é‚±‚Æ‚Å¶¬‚·‚é‚±‚Æ‚ª‚Å‚«‚Ü‚·B
+  ã¨ã‚¿ã‚¤ãƒ—ã™ã‚‹ã“ã¨ã§ç”Ÿæˆã™ã‚‹ã“ã¨ãŒã§ãã¾ã™ã€‚
 
-  XV‚µ‚½ƒtƒ@ƒCƒ‹‚¾‚¯‚ð”½‰f‚³‚¹‚½‚¢ê‡‚ÍA
+  æ›´æ–°ã—ãŸãƒ•ã‚¡ã‚¤ãƒ«ã ã‘ã‚’åæ˜ ã•ã›ãŸã„å ´åˆã¯ã€
   > global -u
 
-œ2 ƒWƒƒƒ“ƒv‚ÌƒL[ƒoƒCƒ“ƒh
-  M-t ŠÖ”‚Ì’è‹`Œ³‚ÖƒWƒƒƒ“ƒv
-  M-r ŠÖ”‚ðŽQÆŒ³‚Ìˆê——‚ð•\Ž¦BRET ‚ÅŽQÆŒ³‚ÖƒWƒƒƒ“ƒv
-  M-s •Ï”‚Ì’è‹`Œ³‚ÆŽQÆŒ³‚Ìˆê——‚ð•\Ž¦BRET ‚ÅŠY“–‰ÓŠ‚ÖƒWƒƒƒ“ƒv
-  M-e gtags-select-modeƒoƒbƒtƒ@‚ðŒo—R‚¹‚¸‚ÉAƒ_ƒCƒŒƒNƒgƒWƒƒƒ“ƒv
-  C-t ‘O‚Ìƒoƒbƒtƒ@‚Ö–ß‚é
-  M-j ŽQÆŒ³‚Ìˆê——‚ð•\Ž¦(grep‚ðŽg—p)
-  M-c ƒJ[ƒ\ƒ‹’¼‰º‚É‚ ‚éƒwƒbƒ_ƒtƒ@ƒCƒ‹‚ÉƒWƒƒƒ“ƒv(C/C++‚Ì‚Ý)
-  M-n ŽŸ‚ÌŒó•â‚ÖˆÚ“®
-  M-p ‘O‚ÌŒó•â‚ÖˆÚ“®
-  M-. .c <--> .hƒtƒ@ƒCƒ‹‚ðƒgƒOƒ‹‚·‚é(C/C++‚Ì‚Ý)
+â—2 ã‚¸ãƒ£ãƒ³ãƒ—ã®ã‚­ãƒ¼ãƒã‚¤ãƒ³ãƒ‰
+  M-t é–¢æ•°ã®å®šç¾©å…ƒã¸ã‚¸ãƒ£ãƒ³ãƒ—
+  M-r é–¢æ•°ã‚’å‚ç…§å…ƒã®ä¸€è¦§ã‚’è¡¨ç¤ºã€‚RET ã§å‚ç…§å…ƒã¸ã‚¸ãƒ£ãƒ³ãƒ—
+  M-s å¤‰æ•°ã®å®šç¾©å…ƒã¨å‚ç…§å…ƒã®ä¸€è¦§ã‚’è¡¨ç¤ºã€‚RET ã§è©²å½“ç®‡æ‰€ã¸ã‚¸ãƒ£ãƒ³ãƒ—
+  M-e gtags-select-modeãƒãƒƒãƒ•ã‚¡ã‚’çµŒç”±ã›ãšã«ã€ãƒ€ã‚¤ãƒ¬ã‚¯ãƒˆã‚¸ãƒ£ãƒ³ãƒ—
+  C-t å‰ã®ãƒãƒƒãƒ•ã‚¡ã¸æˆ»ã‚‹
+  M-j å‚ç…§å…ƒã®ä¸€è¦§ã‚’è¡¨ç¤º(grepã‚’ä½¿ç”¨)
+  M-c ã‚«ãƒ¼ã‚½ãƒ«ç›´ä¸‹ã«ã‚ã‚‹ãƒ˜ãƒƒãƒ€ãƒ•ã‚¡ã‚¤ãƒ«ã«ã‚¸ãƒ£ãƒ³ãƒ—(C/C++ã®ã¿)
+  M-n æ¬¡ã®å€™è£œã¸ç§»å‹•
+  M-p å‰ã®å€™è£œã¸ç§»å‹•
+  M-. .c <--> .hãƒ•ã‚¡ã‚¤ãƒ«ã‚’ãƒˆã‚°ãƒ«ã™ã‚‹(C/C++ã®ã¿)
 
 
-¡XV—š—ð
+â– æ›´æ–°å±¥æ­´
   2007/12/27
-  Eemacs.lˆË‘¶‚Ì‰ðÁ(NANRI‚³‚ñ’ñ‹Ÿ)
-  Egtags-find-tag-by-event(ƒTƒ|[ƒgŠO)‚ ‚½‚è‚ðC³
-    ƒoƒCƒgƒRƒ“ƒpƒCƒ‹‚ª’Ê‚é‚æ‚¤‚ÉC³B
-  EREADME.txt‚Ì“Y•t
+  ãƒ»emacs.lä¾å­˜ã®è§£æ¶ˆ(NANRIã•ã‚“æä¾›)
+  ãƒ»gtags-find-tag-by-event(ã‚µãƒãƒ¼ãƒˆå¤–)ã‚ãŸã‚Šã‚’ä¿®æ­£
+    ãƒã‚¤ãƒˆã‚³ãƒ³ãƒ‘ã‚¤ãƒ«ãŒé€šã‚‹ã‚ˆã†ã«ä¿®æ­£ã€‚
+  ãƒ»README.txtã®æ·»ä»˜
 
   2007/07/21
-  Egtags-menu.l‚ÌƒoƒOC³B
-    ƒfƒBƒŒƒNƒgƒŠŽw’è‚ÌŽd•û‚ðƒ~ƒX‚Á‚Ä‚¢‚½B
-  Eniup‹L”O
+  ãƒ»gtags-menu.lã®ãƒã‚°ä¿®æ­£ã€‚
+    ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªæŒ‡å®šã®ä»•æ–¹ã‚’ãƒŸã‚¹ã£ã¦ã„ãŸã€‚
+  ãƒ»niupè¨˜å¿µ
 
   2006/11/14
-  Egtags-ext.l‚Égtags-toggle-source‚ð’Ç‰ÁB
-    elisp‚Ìtoggle-source.el‚ðŽQl‚É‚µ‚Ü‚µ‚½B
+  ãƒ»gtags-ext.lã«gtags-toggle-sourceã‚’è¿½åŠ ã€‚
+    elispã®toggle-source.elã‚’å‚è€ƒã«ã—ã¾ã—ãŸã€‚
 
   2006/11/01
-  Egtags-menu.l‚Ìˆø”ŠÔˆá‚¢‚ðC³(OHKUBO‚³‚ñŽw“E orz)
+  ãƒ»gtags-menu.lã®å¼•æ•°é–“é•ã„ã‚’ä¿®æ­£(OHKUBOã•ã‚“æŒ‡æ‘˜ orz)
 
   2006/08/26
-  Egtags-menu.l‚ðC³BXV‚©¶¬‚©‚ð‘I‘ð‚Å‚«‚é‚æ‚¤‚É’Ç‰ÁB
+  ãƒ»gtags-menu.lã‚’ä¿®æ­£ã€‚æ›´æ–°ã‹ç”Ÿæˆã‹ã‚’é¸æŠžã§ãã‚‹ã‚ˆã†ã«è¿½åŠ ã€‚
 
   2006/08/13
-  Egtags-menu.l“à‚Ìtypo‚ðC³(ƒLƒƒƒ“ƒZƒ‹‚Ì•s‹ï‡)B
+  ãƒ»gtags-menu.lå†…ã®typoã‚’ä¿®æ­£(ã‚­ãƒ£ãƒ³ã‚»ãƒ«ã®ä¸å…·åˆ)ã€‚
 
   2006/08/10
-  EŽg‚¢•û‚È‚Ç‚ð’Ç‰ÁB
-  Egtags-ext.l‚Ìì¬B
-  E(in-package "editor")‚É‘Î‰žB
+  ãƒ»ä½¿ã„æ–¹ãªã©ã‚’è¿½åŠ ã€‚
+  ãƒ»gtags-ext.lã®ä½œæˆã€‚
+  ãƒ»(in-package "editor")ã«å¯¾å¿œã€‚
 
   2006/08/07
-  ENetInstaller‘Î‰ž
+  ãƒ»NetInstallerå¯¾å¿œ
 
   2005/09/05
-  Eì‚è‚©‚¯‚Ìƒtƒ@ƒCƒ‹‚ðrequire‚µ‚Ä‚¢‚½‚Ì‚ðíœB
-  Egtags-select-modeŽž‚ÌƒL[ƒoƒCƒ“ƒh‚ðƒIƒŠƒWƒiƒ‹‚É‡‚í‚¹‚½B
+  ãƒ»ä½œã‚Šã‹ã‘ã®ãƒ•ã‚¡ã‚¤ãƒ«ã‚’requireã—ã¦ã„ãŸã®ã‚’å‰Šé™¤ã€‚
+  ãƒ»gtags-select-modeæ™‚ã®ã‚­ãƒ¼ãƒã‚¤ãƒ³ãƒ‰ã‚’ã‚ªãƒªã‚¸ãƒŠãƒ«ã«åˆã‚ã›ãŸã€‚
 
   2005/08/04
-  E‚Æ‚è‚ ‚¦‚¸ƒ¿”ÅƒŠƒŠ[ƒXB
+  ãƒ»ã¨ã‚Šã‚ãˆãšÎ±ç‰ˆãƒªãƒªãƒ¼ã‚¹ã€‚
 
 
-¡‚¨–â‚¢‡‚í‚¹
-  bulb <ttomise at gmail dot com>
+â– ãŠå•ã„åˆã‚ã›
+  ttomise@gmail.com
 
